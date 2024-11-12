@@ -100,5 +100,7 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: ''
+ddeploy:
+  type: git
+  repository: https://github.com/zhuzhengwen/zhuzhengweg.github.io.git
+  branch: main
